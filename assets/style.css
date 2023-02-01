@@ -1,0 +1,41 @@
+#img {border: 20px;}
+#forecast{display: flex; 
+justify-content: center;
+flex-direction: row;
+align-items: center;}
+
+.card{border: solid black;
+text-align: center;
+background-color: rgb(209, 213, 255);}
+
+img {align-self: center;}
+
+#currentWeather{width: 100%;
+margin-top: 20px;
+display:flex;
+justify-self: center;
+}
+
+button{margin-top: 20px;
+border-color: darkgrey;}
+
+button:hover {background-color: blue;}
+
+.sunny{background-color: rgb(213, 244, 254);}
+.cloudy{background-color: rgb(199, 199, 199);}
+.rain {background-color: darkgray;}
+.snow {background-image: url("https://th.bing.com/th/id/R.3e77da66286d871d8cd0362dce540c06?rik=1PO52l1gOsE1kg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f9%2fd%2f66408.jpg&ehk=ry1KqS%2bPcv9v9fhvmqgQ3y%2bADysKX00M2g%2bmObV2BAo%3d&risl=&pid=ImgRaw&r=0");}
+nav {display: flex;
+flex-direction: row;
+justify-content: space-evenly;}
+
+.btn-primary{margin-top: 50px;}
+
+#currentWeather {margin-left: 30%;}
+
+.current{width: 800px;}
+
+.forecast{margin-right: 10px;
+}
+
+.weather-header{background-color: blue;}
